@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :Alan Zion H
-Roll no :212223240004
-Date of experiment :
+### Name :Alan Zion H
+### Roll no :212223240004
+### Date of experiment :
 
 
 
@@ -126,8 +126,60 @@ Hlt
 
 
 ## Programs for logical operatioins
+## Not alp:
+```
+MOV AL, 56H
+MOV BL, 34H
+NOT BL
+HLT
+```
+## OUTPUT
+
+![Screenshot (186)](https://github.com/user-attachments/assets/f46fef6d-e0a8-4a6f-94c0-315bdea12c3f)
+
+
+## Xor alp:
+```
+MOV AL,48H
+MOV BL,74H
+XOR AL,BL
+HLT
+```
+
+## OUTPUT:
+![Screenshot (182)](https://github.com/user-attachments/assets/98eeda84-6b86-4afd-991c-861e71d66641)
+
+
+## And alp:
+```
+MOV AL,59H
+MOV BL,39H
+AND AL,BL
+HLT
+```
+
+## OUTPUT:
+![Screenshot (180)](https://github.com/user-attachments/assets/3cb677b6-cf61-4751-ab73-5193ec2402e4)
+
+## NOR alp
+```
+MOV AL,53H
+MOV BL,32H
+NOR AL,BL
+HLT
+```
+## OUTPUT
+
+![Screenshot (181)](https://github.com/user-attachments/assets/b9d0435c-a26f-43b4-9e02-a2af94266644)
+
+
+
+
 
 ## Result :
+Thus the execution of ALP on fundamental arithmetic and logical operation has been performed successfully.
+
+
  
 
 
